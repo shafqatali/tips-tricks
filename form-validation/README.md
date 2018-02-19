@@ -20,15 +20,15 @@ You can use this library to validate all types on input using basic Javacsript. 
 </form>
  <script>
     document.getElementById('validateForm').validateForm({
-        invalidEmail: "",
-        invalidNumber: "",
-        invalidPhone: "",
-        invalidOption: "",
-        invalidCheckbox: "",
-        invalidRange: "",
-        successClass: "",
-        errorClass: "",
-        closestTagSelector: "",
+        invalidEmail: "Please enter a valid email address",
+        invalidNumber: "Please enter a number between 1 to 100",
+        invalidPhone: "Please enter a valid phone number.",
+        invalidOption: "Please select at least one option",
+        invalidCheckbox: "Please check the checkbox",
+        invalidRange: "You have entered a number that is not valid",
+        successClass: "has-success",
+        errorClass: "has-error",
+        closestTagSelector: ".form-group",
         messageWrapperTag: "<span class='help-block'></span>"
     });
 </script>
