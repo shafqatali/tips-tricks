@@ -33,4 +33,4 @@ You can use this library to validate all types on input using basic Javacsript. 
     });
 </script>
  ```
- For detail information please see this file [John Gruber]
+ For detail information please see this [file(https://github.com/shafqatali/tips-tricks/blob/master/form-validation/js/form-validation.js)]
