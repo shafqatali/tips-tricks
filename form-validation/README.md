@@ -45,6 +45,6 @@ By default "has-error" and "has-success" classes are being used in styling. If y
  - closestTagSelector
 You can also customize the HTML markup for error messages by setting this property 
  - messageWrapperTag: Please ensure a valid HTML markupm cannot be nested i.e <div><span></span></div>
- - 
+ 
  
 Feel free to send your feedback/suggesstion/enhancements for this library.
